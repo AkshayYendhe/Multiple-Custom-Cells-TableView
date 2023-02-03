@@ -13,6 +13,10 @@
 		EFC1BED929712EE100CFB278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC1BED729712EE100CFB278 /* Main.storyboard */; };
 		EFC1BEDB29712EE200CFB278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC1BEDA29712EE200CFB278 /* Assets.xcassets */; };
 		EFC1BEDE29712EE200CFB278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC1BEDC29712EE200CFB278 /* LaunchScreen.storyboard */; };
+		EFC1BEE62971322100CFB278 /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC1BEE52971322100CFB278 /* SimpleTableViewCell.swift */; };
+		EFC1BEE92971363200CFB278 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC1BEE72971363200CFB278 /* ImageTableViewCell.swift */; };
+		EFC1BEEA2971363200CFB278 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC1BEE82971363200CFB278 /* ImageTableViewCell.xib */; };
+		EFC1BEEC29713C2F00CFB278 /* CodedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC1BEEB29713C2F00CFB278 /* CodedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EFC1BEDA29712EE200CFB278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFC1BEDD29712EE200CFB278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFC1BEDF29712EE200CFB278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC1BEE52971322100CFB278 /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
+		EFC1BEE72971363200CFB278 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		EFC1BEE82971363200CFB278 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		EFC1BEEB29713C2F00CFB278 /* CodedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodedTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				EFC1BEDA29712EE200CFB278 /* Assets.xcassets */,
 				EFC1BEDC29712EE200CFB278 /* LaunchScreen.storyboard */,
 				EFC1BEDF29712EE200CFB278 /* Info.plist */,
+				EFC1BEE52971322100CFB278 /* SimpleTableViewCell.swift */,
+				EFC1BEE72971363200CFB278 /* ImageTableViewCell.swift */,
+				EFC1BEE82971363200CFB278 /* ImageTableViewCell.xib */,
+				EFC1BEEB29713C2F00CFB278 /* CodedTableViewCell.swift */,
 			);
 			path = "Multiple Custom Cells TableView";
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC1BEDE29712EE200CFB278 /* LaunchScreen.storyboard in Resources */,
+				EFC1BEEA2971363200CFB278 /* ImageTableViewCell.xib in Resources */,
 				EFC1BEDB29712EE200CFB278 /* Assets.xcassets in Resources */,
 				EFC1BED929712EE100CFB278 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC1BED629712EE100CFB278 /* ViewController.swift in Sources */,
+				EFC1BEEC29713C2F00CFB278 /* CodedTableViewCell.swift in Sources */,
+				EFC1BEE62971322100CFB278 /* SimpleTableViewCell.swift in Sources */,
+				EFC1BEE92971363200CFB278 /* ImageTableViewCell.swift in Sources */,
 				EFC1BED229712EE100CFB278 /* AppDelegate.swift in Sources */,
 				EFC1BED429712EE100CFB278 /* SceneDelegate.swift in Sources */,
 			);
